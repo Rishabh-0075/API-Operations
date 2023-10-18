@@ -1,0 +1,51 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.grid {
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 1.6rem;
+}
+
+.card {
+  
+  padding: 1.5em;
+  border: 2px solid white;
+  max-width: 24rem;
+  height: 22rem;
+  border-radius: 20px;
+
+}
+
+.del{
+  background-color: white;
+  color: rgb(13, 0, 16);
+  flex-grow: 1;
+  border-radius: 60px;
+
+}
+
+.delButton{
+  display: flex;
+  justify-content: flex-end;
+
+}
